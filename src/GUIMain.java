@@ -8,7 +8,7 @@ public class GUIMain extends JFrame {
 		super(title);
 		this.setSize(400, 430);
 		this.setVisible(true);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
 		// Set layout manager
 		setLayout(new BorderLayout());
@@ -17,7 +17,7 @@ public class GUIMain extends JFrame {
 		GUITextInput inputBox = new GUITextInput();	
 		
 		
-		// Add component to content pane
+		// Add components to content pane
 		Container contentPane = getContentPane();
 		
 		contentPane.add(consoleBox, BorderLayout.NORTH);
